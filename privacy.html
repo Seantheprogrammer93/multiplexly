@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Multiplexly LLC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Multiplexly home">
+        <img src="assets/images/M.png" alt="Multiplexly logo" style="height:1em;width:auto;vertical-align:middle;margin-right:0.4em;">
+        Multiplexly
+      </a>
+      <nav aria-label="Primary">
+        <a href="index.html#start">Get started</a>
+        <a href="index.html#compliance">Compliance</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="legal container">
+    <h1>Privacy Policy</h1>
+    <p>Effective Date: May 9, 2026</p>
+    <p>Multiplexly LLC values your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use our website.</p>
+    <h2>Information We Collect</h2>
+    <ul>
+      <li>We do not collect personal information unless you voluntarily provide it (e.g., by contacting us).</li>
+      <li>We may collect non-personal information such as browser type, device, and usage statistics for analytics and site improvement.</li>
+    </ul>
+    <h2>How We Use Information</h2>
+    <ul>
+      <li>To respond to your inquiries or requests.</li>
+      <li>To improve our website and services.</li>
+      <li>To comply with legal obligations.</li>
+    </ul>
+    <h2>Cookies</h2>
+    <p>We may use cookies or similar technologies to enhance your experience. You can disable cookies in your browser settings.</p>
+    <h2>Third-Party Links</h2>
+    <p>Our website may contain links to third-party sites. We are not responsible for their privacy practices.</p>
+    <h2>Contact</h2>
+    <p>If you have questions about this policy, contact us at <a href="mailto:contact@multiplexly.com">contact@multiplexly.com</a>.</p>
+    <p>This policy may be updated from time to time. Please review it periodically.</p>
+  </main>
+  <button id="backToTopBtn" aria-label="Back to top" style="display:none;position:fixed;bottom:2.5rem;right:2.5rem;z-index:1000;padding:0.85em 1.4em;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:1.1rem;box-shadow:0 2px 8px rgba(0,0,0,0.08);cursor:pointer;transition:background 0.15s;">↑ Top</button>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© 2026 Multiplexly LLC. All rights reserved.</p>
+      <p class="footer-links">
+        <a href="index.html">Home</a> ·
+        <a href="terms.html">Terms of Service</a> ·
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+      <p class="disclaimer">
+        Multiplexly LLC is an affiliate partner of Currencies Direct.<br>
+      </p>
+      <p class="disclaimer">
+        Multiplexly LLC is not a bank, money transmitter, or other money services business (MSB) as defined by <a
+          href="https://www.fincen.gov/msb-state-selector" target="_blank" rel="noopener">FinCEN</a> or state
+        regulators. Nothing on this site constitutes legal, tax, or financial advice. Please consult a qualified
+        professional for advice specific to your situation.
+        Third-party trademarks, logos, and service marks are the property of their respective owners. Their use does not
+        imply affiliation or endorsement.
+      </p>
+      <div class="scanverify-seal" style="margin-top:2em;">
+        <!-- Begin ScanVerify Seal Code -->
+        <script src='https://scanverify.com/javascript.js'> </script>
+        <a target=_blank href="https://scanverify.com/siteverify.php?ref=stp&site=multiplexly.com">
+          <img src='https://scanverify.com/seal/seal.php?site=multiplexly.com' border=0
+            ALT='ScanVerify.com Trust Seal'></a>
+        <!-- End ScanVerify Seal Code -->
+      </div>
+    </div>
+  </footer>
+<script>
+// Show back to top button when near bottom
+const backToTopBtn = document.getElementById('backToTopBtn');
+window.addEventListener('scroll', function() {
+  const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+  const scrolled = window.scrollY;
+  if (scrollable - scrolled < 200) {
+    backToTopBtn.style.display = 'block';
+  } else {
+    backToTopBtn.style.display = 'none';
+  }
+});
+backToTopBtn.addEventListener('click', function() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
+</script>
+</body>
+</html>
